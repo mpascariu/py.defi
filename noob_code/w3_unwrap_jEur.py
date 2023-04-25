@@ -9,6 +9,7 @@ Interact with jEUR SynthereumFixedRateWrapper
 # Setup
 import os
 import json
+import sys
 from web3 import Web3
 
 # Here I have a file containing API keys, wallet and smart contract addresses
@@ -145,7 +146,7 @@ approve_spending_limit(
   amount          = 1000
   )
 
-wrapper_jEUR(
+call_jEUR_wrapper(
   wallet_address = _init.w_cologne, 
   wallet_key     = _init.pk_cologne,
   contract       = _init.sc_SynthereumFixedRateWrapper,

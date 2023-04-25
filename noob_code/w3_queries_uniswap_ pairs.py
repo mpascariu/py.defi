@@ -9,6 +9,7 @@ Program to query Uniswap V2 pair addresses
 # Setup
 import os
 import json
+import sys
 from web3 import Web3
 
 # Here I have a file containing API keys, wallet and smart contract addresses

@@ -8,6 +8,7 @@ Setup for sending ERC20 tokens from your wallet to another wallet on the Polygon
 
 # Setup
 import os
+import sys
 from web3 import Web3
 
 # Here I have a file containing API keys, wallet and smart contract addresses
